@@ -10,7 +10,7 @@ return {
       lualine_a = {
         {
           "filename",
-          path = 3,
+          path = 4,
           file_status = true,
           shorting_target = 40,
           symbols = {
@@ -23,7 +23,7 @@ return {
         {
           "buffers",
           buffers_color = {
-            active = "lualine_z_normal",
+            active = "lualine_c_normal",
             inactive = "lualine_c_inactive",
           },
 
