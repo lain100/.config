@@ -38,7 +38,7 @@ return {
         { "filetype", "fileformat" },
       },
       lualine_z = {
-        { "os.date('%H:%M')", color = { fg="#99FFFF", bg="#3c3c6c" } },
+        { "os.date('%H:%M')", color = { fg="#99ffff", bg="#3c3c6c" } },
       },
     },
   },
