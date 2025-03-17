@@ -3,7 +3,7 @@ local opt = vim.opt
 opt.number = true
 opt.relativenumber = true
 opt.title = true
-opt.laststatus = 3
+opt.laststatus = 0
 opt.winblend = 30
 opt.pumblend = 30
 
@@ -27,5 +27,5 @@ opt.hlsearch = false
 opt.foldmethod = "indent"
 opt.foldlevel = 100
 
-opt.belloff = "all"
+opt.belloff = "backspace,cursor,esc,error"
 opt.autochdir = true
