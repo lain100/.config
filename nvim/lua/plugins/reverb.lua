@@ -11,7 +11,7 @@ return {
     sounds = {
       BufReadPost = {
         path = sound("cursor26a.wav"),
-        volume = 50,
+        volume = 40,
       },
       TextChangedI = {
         path = sound("doorknob.wav"),
@@ -30,16 +30,20 @@ return {
         volume = 40,
       },
       CmdlineEnter = {
-        path = sound("reload2.wav"),
-        volume = 50,
-      },
-      WinClosed = {
-        path = sound("drop.wav"),
+        path = {
+          sound("sfx009.wav"),
+          sound("reload2.wav"),
+          sound("cursor24.wav"),
+        },
         volume = 40,
+      },
+      Bufdelete = {
+        path = sound("drop.wav"),
+        volume = 30,
       },
       TextYankPost = {
         path = sound("sfx010.wav"),
-        volume = 50,
+        volume = 40,
       },
       BufWrite = {
         path = {
