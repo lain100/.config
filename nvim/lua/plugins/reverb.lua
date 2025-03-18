@@ -26,7 +26,6 @@ return {
         volume = 50,
       },
       InsertEnter = {
-        -- path = sound("gun.wav"),
         path = sound("reload2.wav"),
         volume = 40,
       },

@@ -8,6 +8,7 @@
   "dps-parinfer": { "branch": "main", "commit": "ccaacfafb39ac6c9c260b8479f1b1f6f759be508" },
   "dropbar.nvim": { "branch": "master", "commit": "009c214b6eadf49ec50fc81055ceb08ca3fcb8e1" },
   "hlchunk.nvim": { "branch": "main", "commit": "5465dd33ade8676d63f6e8493252283060cd72ca" },
+  "indent-blankline.nvim": { "branch": "master", "commit": "005b56001b2cb30bfa61b7986bc50657816ba4ba" },
   "lspkind.nvim": { "branch": "master", "commit": "d79a1c3299ad0ef94e255d045bed9fa26025dab6" },
   "lualine.nvim": { "branch": "master", "commit": "f4f791f67e70d378a754d02da068231d2352e5bc" },
   "modes.nvim": { "branch": "main", "commit": "1e34663c32e8f5d915921a938e0dc4e3e788ceb8" },
