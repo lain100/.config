@@ -26,18 +26,18 @@ return {
         volume = 50,
       },
       InsertEnter = {
-        path = sound("gun.wav"),
+        -- path = sound("gun.wav"),
+        path = sound("reload2.wav"),
         volume = 40,
       },
       CmdlineEnter = {
         path = {
           sound("sfx009.wav"),
-          sound("reload2.wav"),
           sound("cursor24.wav"),
         },
         volume = 40,
       },
-      Bufdelete = {
+      BufUnload = {
         path = sound("drop.wav"),
         volume = 30,
       },

@@ -8,7 +8,7 @@ opt.winblend = 30
 opt.pumblend = 30
 
 opt.list = true
-opt.listchars = { eol = "↵" }
+opt.listchars = { tab = "»-", extends = "»", eol = "↵" }
 opt.completeopt = { "menu", "menuone", "noselect" }
 opt.whichwrap = "b,s,h,l,<,>,[,]"
 
