@@ -4,14 +4,11 @@ return {
   main = "ibl",
   config = function()
     local ibl = require("ibl")
-    ibl.setup()
-
     local hooks = require("ibl.hooks")
     local set_hl = vim.api.nvim_set_hl
 
     -- #3a5fcd #cd6600 #43cd80 #b22222 #9932cc
     hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
-      set_hl(0, "HLChunk1", { fg = "#806d9c" })
       set_hl(0, "blue",     { fg = "#284251" })
       set_hl(0, "orange",   { fg = "#434437" })
       set_hl(0, "green",    { fg = "#2f4440" })
@@ -28,11 +25,17 @@ return {
           "red",
           "violet",
         },
+        char = "┃",
+      },
+      whitespace = {
+        highlight = {
+          "CursorColumn",
+          "Whitespace",
+        },
+        remove_blankline_trail = false,
       },
       scope = {
-        highlight = { "HLChunk1" },
-        char = "»"
-        -- "│",
+        enabled = false,
       },
     })
   end,

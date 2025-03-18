@@ -9,9 +9,14 @@ return {
       chunk = {
         enable = true,
         delay = 0,
-      },
-      line_num = {
-        enable = true,
+        chars = {
+          left_arrow = "━",
+          horizontal_line = "━",
+          left_top = "┏",
+          vertical_line = "┃",
+          left_bottom = "┗",
+          right_arrow = "ᐆ",
+        }
       },
     })
   end,
