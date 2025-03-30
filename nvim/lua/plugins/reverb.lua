@@ -36,6 +36,10 @@ return {
         },
         volume = 40,
       },
+      ExitPre = {
+        path = sound("cursor14.wav"),
+        volume = 50,
+      },
       BufUnload = {
         path = sound("drop.wav"),
         volume = 30,
@@ -49,10 +53,6 @@ return {
           sound("sfx005.wav"),
           sound("sword.wav"),
         },
-        volume = 50,
-      },
-      ExitPre = {
-        path = sound("cursor14.wav"),
         volume = 50,
       },
     },

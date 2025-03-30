@@ -9,11 +9,11 @@ return {
 
     -- #3a5fcd #cd6600 #43cd80 #b22222 #9932cc
     hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
-      set_hl(0, "blue",     { fg = "#284251" })
-      set_hl(0, "orange",   { fg = "#434437" })
-      set_hl(0, "green",    { fg = "#2f4440" })
-      set_hl(0, "red",      { fg = "#433054" })
-      set_hl(0, "violet",   { fg = "#3f3068" })
+      set_hl(0, "blue",   { fg = "#284251" })
+      set_hl(0, "orange", { fg = "#434437" })
+      set_hl(0, "green",  { fg = "#2f4440" })
+      set_hl(0, "red",    { fg = "#433054" })
+      set_hl(0, "violet", { fg = "#3f3068" })
     end)
 
     ibl.setup({
@@ -26,13 +26,6 @@ return {
           "violet",
         },
         char = "┃",
-      },
-      whitespace = {
-        highlight = {
-          "CursorColumn",
-          "Whitespace",
-        },
-        remove_blankline_trail = false,
       },
       scope = {
         enabled = false,

@@ -27,5 +27,5 @@ opt.hlsearch = false
 opt.foldmethod = "indent"
 opt.foldlevel = 100
 
-opt.belloff = "backspace,cursor,esc,error"
+opt.belloff = "backspace,cursor,esc,error,register"
 opt.autochdir = true

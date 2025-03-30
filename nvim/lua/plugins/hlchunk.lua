@@ -15,7 +15,7 @@ return {
           left_top = "┏",
           vertical_line = "┃",
           left_bottom = "┗",
-          right_arrow = "ᐆ",
+          right_arrow = "ᐅ",
         }
       },
     })
