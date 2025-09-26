@@ -2,6 +2,8 @@ local opt = vim.opt
 
 opt.number = true
 opt.relativenumber = true
+opt.cursorline = true
+opt.cursorlineopt = "number"
 opt.title = true
 opt.laststatus = 0
 opt.winblend = 30

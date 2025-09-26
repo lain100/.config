@@ -11,8 +11,9 @@ return {
     picker = { enabled = true },
   },
   keys = {
-    { "<leader>b", function() Snacks.picker.buffers() end },
+    { "<leader>,", function() Snacks.picker.buffers() end },
     { "<leader><leader>", function() Snacks.picker.smart() end },
     { "<leader>e", function() Snacks.picker.explorer() end },
+    { "<leader>/", function() Snacks.terminal() end },
   },
 }
