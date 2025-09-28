@@ -9,11 +9,12 @@ return {
       chunk = { enabled = true },
     },
     picker = { enabled = true },
+    scratch = { enabled = true },
   },
   keys = {
-    { "<leader>,", function() Snacks.picker.buffers() end },
     { "<leader><leader>", function() Snacks.picker.smart() end },
     { "<leader>e", function() Snacks.picker.explorer() end },
-    { "<leader>/", function() Snacks.terminal() end },
+    { "<leader>s", function() Snacks.scratch() end },
+    { "<c-_>", function() Snacks.terminal() end },
   },
 }

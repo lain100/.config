@@ -5,8 +5,8 @@ return {
     audio_player = "paplay",
     max_sounds = 20,
     sound_map = {
-      { auto_command = "VimEnter", sound = "01Join.wav" },
-      { auto_command = "VimLeave", sound = "07GameOver.wav" },
+      { auto_command = "VimEnter", sound = "03Turn.wav" },
+      { auto_command = "VimLeave", sound = "04Fixed.wav" },
       -- ~/.config/nvim/sounds/
     }
   }
