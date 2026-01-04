@@ -14,5 +14,7 @@
   "nvlime": { "branch": "master", "commit": "334054704a8edeed1783be684dc672bdc1505897" },
   "parsley": { "branch": "main", "commit": "c4100aa449bfa971dcfc56ffe4206ba034db08cc" },
   "rainbow": { "branch": "master", "commit": "76ca1a20aa42edb5c65c19029968aad4625790dc" },
-  "snacks.nvim": { "branch": "main", "commit": "fe7cfe9800a182274d0f868a74b7263b8c0c020b" }
+  "snacks.nvim": { "branch": "main", "commit": "fe7cfe9800a182274d0f868a74b7263b8c0c020b" },
+  "vim-sexp": { "branch": "master", "commit": "f5bd4cb2535969fe4741b24fa5f51690521dbaf0" },
+  "vim-sexp-mappings-for-regular-people": { "branch": "master", "commit": "4debb74b0a3e530f1b18e5b7dff98a40b2ad26f1" }
 }

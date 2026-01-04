@@ -6,6 +6,9 @@ return {
 	},
   init = function ()
     local opts = require("nvlime.config")
-    opts.cmp.enabled = true
+    opts.leader = ","
+    opts.cmp = {
+      enabled = true,
+    }
   end
 }
